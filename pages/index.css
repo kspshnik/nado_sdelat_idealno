@@ -1,4 +1,4 @@
-@import url('../blocks/global.css');
+@import url('./global.css');
 @import url('../fonts/fonts.css');
 @import url('../blocks/main/main.css');
 @import url('../blocks/header/header.css');
