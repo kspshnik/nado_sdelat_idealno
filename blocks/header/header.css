@@ -1,5 +1,5 @@
 .header {
-  width:740px;
+  inline-size:740px;
   font-family: Raleway, sans-serif;
   font-size: 116px;
   font-weight: 800;
@@ -17,7 +17,7 @@
   position: absolute;
   right: 22px;
   top: 182px;
-  width: 742px;
+  inline-size: 742px;
 
   border-radius:20px;
   box-shadow: 2px 14px #000;

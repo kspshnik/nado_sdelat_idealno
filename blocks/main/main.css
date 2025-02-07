@@ -1,6 +1,6 @@
 .main {
   height: inherit;
-  min-width: 800px;
+  min-inline-size: 800px;
   position: relative;
   display: flex;
   flex-flow: column nowrap;
