@@ -1,0 +1,48 @@
+.header {
+  inline-size:740px;
+  font-family: Raleway, sans-serif;
+  font-size: 116px;
+  font-weight: 800;
+  line-height: 1.1740;
+  letter-spacing: 4px;
+  text-transform: uppercase;
+  color: #000;
+  z-index: 3;
+  text-align: center;
+  position: static;
+}
+
+.header:hover {
+  color: #4C4C4C;
+}
+
+.header:hover::before {
+  content: 'На самом деле нет.\AВажнее &mdash; научиться ошибаться.';
+  white-space: pre;
+  position: absolute;
+  right: 22px;
+  top: 182px;
+  inline-size: 742px;
+color:#000;
+  border-radius:20px;
+  box-shadow: 2px 14px currentColor;
+  border: 2px solid currentColor;
+  z-index: 4;
+  font-family: Raleway, sans-serif;
+  text-transform: initial;
+  font-size: 35px;
+  font-weight: 400;
+  line-height: 1;
+  background-color: #ffffff;
+  white-space: pre;
+  text-align: start;
+  vertical-align: middle;
+  padding: 36px 44px;
+}
+
+.header::after {
+  content: '*'
+}
+
+
+
